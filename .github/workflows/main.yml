@@ -1,30 +1,30 @@
-name: generate animation
+name: generate pacman animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # executa todo dia à meia-noite (UTC)
+    - cron: "0 0 * * *"  # Executa 1x por dia (meia-noite UTC)
   workflow_dispatch:
   push:
     branches:
-      - main  # altere para master se for o caso
+      - main  # ou 'master', se for sua branch principal
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man contribution graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: grad-valdeney
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push github-contribution-grid-snake.svg to the output branch
+      - name: Push Pac-Man animation to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
