@@ -79,6 +79,16 @@
   <!-- Adicione seu site pessoal ou portfólio aqui se tiver -->
 </p>
 
+---
+## 👾 Pac-Man das Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/pacman-contribution-graph.svg">
+    <img src="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/pacman-contribution-graph.svg" alt="Pac-Man animation com suas contribuições">
+  </picture>
+</p>
 
 ---
 
