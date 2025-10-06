@@ -80,10 +80,5 @@
 </p>
 
 ---
-## 🐍 Minhas Contribuições
-<p align="center">
-  <img src="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
----
 
 ⭐️ Obrigado por visitar meu perfil!
