@@ -80,15 +80,5 @@
 </p>
 
 ---
-## 🐍 Minhas Contribuições
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/grad-valdeney/valdeneymatos21/output/github-contribution-grid-snake.svg" alt="Cobra comendo commits">
-  </picture>
-</p>
----
 
 ⭐️ Obrigado por visitar meu perfil!
